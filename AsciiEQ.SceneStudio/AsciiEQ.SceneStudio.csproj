@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>AsciiEQ.SceneStudio</RootNamespace>
+    <Description>Scene Studio: design .asciiscene backgrounds for AsciiEQ (MIT).</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AsciiEQ.Scenes\AsciiEQ.Scenes.csproj" />
+  </ItemGroup>
+
+</Project>
